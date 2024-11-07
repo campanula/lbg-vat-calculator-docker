@@ -1,7 +1,7 @@
 pipeline{
  environment {
  registry = "campanulia/vatcal"
-        registryCredentials = "DOCKERHUB_ID"
+        registryCredentials = "DOCKER_LOGIN"
         dockerImage = ""
     }
     agent any
