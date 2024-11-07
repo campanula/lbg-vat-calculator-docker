@@ -1,6 +1,6 @@
 pipeline{
  environment {
- registry = "campanulia/vatcal2"
+ registry = "campanulia/vatcal"
         registryCredentials = "DOCKER_LOGIN"
         dockerImage = ""
     }
